@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "177661727930",
+    "project_id": "uzmobile-48579",
+    "storage_bucket": "uzmobile-48579.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177661727930:android:87305e49593ce193c91e83",
+        "android_client_info": {
+          "package_name": "com.example.uzmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177661727930-kcvhq4b9r7lp79r7ben64i82h9vbvaqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkZtbmylsUzf7qkqd1VcHg2VbnDxHYUsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177661727930-kcvhq4b9r7lp79r7ben64i82h9vbvaqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

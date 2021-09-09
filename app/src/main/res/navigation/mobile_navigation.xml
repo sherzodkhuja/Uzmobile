@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.uzmobileapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.uzmobileapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.uzmobileapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.uzmobileapp.ui.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/ussdFragment"
+        android:name="com.example.uzmobileapp.ui.ussd.UssdFragment"
+        android:label="fragment_ussd"
+        tools:layout="@layout/fragment_ussd" />
+    <fragment
+        android:id="@+id/xizmatlarFragment"
+        android:name="com.example.uzmobileapp.ui.xizmatlar.XizmatlarFragment"
+        android:label="fragment_xizmatlar"
+        tools:layout="@layout/fragment_xizmatlar" />
+    <fragment
+        android:id="@+id/aboutTarifFragment"
+        android:name="com.example.uzmobileapp.ui.tariflar.AboutTarifFragment"
+        android:label="fragment_about_tarif"
+        tools:layout="@layout/fragment_about_tarif" />
+    <fragment
+        android:id="@+id/internetFragment"
+        android:name="com.example.uzmobileapp.ui.internet.InternetFragment"
+        android:label="fragment_internet"
+        tools:layout="@layout/fragment_internet" />
+    <fragment
+        android:id="@+id/internetAdapterFragment"
+        android:name="com.example.uzmobileapp.ui.internet.InternetAdapterFragment"
+        android:label="fragment_internet_adapter"
+        tools:layout="@layout/fragment_internet_adapter" />
+    <fragment
+        android:id="@+id/tariflarFragment"
+        android:name="com.example.uzmobileapp.ui.tariflar.TariflarFragment"
+        android:label="fragment_tariflar"
+        tools:layout="@layout/fragment_tariflar" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.uzmobileapp.ui.language.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" />
+    <fragment
+        android:id="@+id/daqiqaFragment"
+        android:name="com.example.uzmobileapp.ui.daqiqa.DaqiqaFragment"
+        android:label="fragment_daqiqa"
+        tools:layout="@layout/fragment_daqiqa" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.uzmobileapp.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
+    <fragment
+        android:id="@+id/operatorFragment"
+        android:name="com.example.uzmobileapp.ui.operator.OperatorFragment"
+        android:label="fragment_operator"
+        tools:layout="@layout/fragment_operator" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.uzmobileapp.ui.news.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/smsAdapterFragment"
+        android:name="com.example.uzmobileapp.ui.sms.SmsAdapterFragment"
+        android:label="fragment_sms_adapter"
+        tools:layout="@layout/fragment_sms_adapter" />
+    <fragment
+        android:id="@+id/smsFragment"
+        android:name="com.example.uzmobileapp.ui.sms.SmsFragment"
+        android:label="fragment_sms"
+        tools:layout="@layout/fragment_sms" />
+    <fragment
+        android:id="@+id/daqiqaAdapterFragment"
+        android:name="com.example.uzmobileapp.ui.daqiqa.DaqiqaAdapterFragment"
+        android:label="fragment_daqiqa_adapter"
+        tools:layout="@layout/fragment_daqiqa_adapter" />
+    <fragment
+        android:id="@+id/aboutNewsFragment"
+        android:name="com.example.uzmobileapp.ui.news.AboutNewsFragment"
+        android:label="fragment_about_news"
+        tools:layout="@layout/fragment_about_news" />
+</navigation>
